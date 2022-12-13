@@ -27,7 +27,7 @@ res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Ty
  next(); });
 
 
-app.use(cors({ origin:'http://localhost:3000', credentials: true }))
+app.use(cors({ origin:'https://sendemail-8e5n.onrender.com', credentials: true }))
 //app.use(corsConfig)
 
 // compress all the file s 
