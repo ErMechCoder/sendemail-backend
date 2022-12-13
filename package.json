@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/index",
   "typings": "dist/index",
+
   "scripts": {
     "start": "node index.js",
     "nodemon": "nodemon index.js",
